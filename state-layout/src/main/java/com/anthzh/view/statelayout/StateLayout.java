@@ -24,7 +24,7 @@ public class StateLayout extends FrameLayout {
     private View mContentView;
 
     public StateLayout(Context context) {
-        super(context, null);
+        this(context, null);
         init();
     }
 
@@ -35,7 +35,7 @@ public class StateLayout extends FrameLayout {
 
     @TargetApi(VERSION_CODES.LOLLIPOP)
     public StateLayout(Context context, AttributeSet attrs, int defStyleAttr) {
-        super(context, attrs, defStyleAttr, 0);
+        this(context, attrs, defStyleAttr, 0);
     }
 
     @TargetApi(VERSION_CODES.LOLLIPOP)

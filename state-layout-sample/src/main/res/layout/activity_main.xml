@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <com.anthzh.view.statelayout.StateLayout
-        android:id="@+id/state_layout"
+        android:id="@id/stl_state_layout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
