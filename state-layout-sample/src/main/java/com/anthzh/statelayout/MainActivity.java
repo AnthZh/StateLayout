@@ -26,7 +26,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mStateLayout = ((StateLayout) findViewById(R.id.state_layout));
+        mStateLayout = ((StateLayout) findViewById(R.id.stl_state_layout));
 
         mStateLayoutHelper = new DefaultStateLayoutHelper(mStateLayout);
         mStateLayoutHelper.setOnViewStateClickListener(new OnViewStateClickListener() {

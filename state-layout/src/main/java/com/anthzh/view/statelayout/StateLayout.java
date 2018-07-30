@@ -17,7 +17,7 @@ import com.anthzh.view.statelayout.viewstate.ViewState;
  * CreateDate : 2017/6/7 11:30 <br/>
  */
 public class StateLayout extends FrameLayout {
-    private static final int STATE_CONTENT = 9999;
+    public static final int STATE_CONTENT = 9999;
 
     private SparseArray<ViewState> mViewStates = new SparseArray<>();
     private ViewState mShowingViewState;

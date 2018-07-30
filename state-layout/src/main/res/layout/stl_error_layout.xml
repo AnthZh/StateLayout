@@ -9,7 +9,7 @@
         android:id="@+id/view_state_error_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableTop="@drawable/ic_launcher"
+        android:drawableTop="@drawable/stl_ic_error"
         android:gravity="center"
         android:text="@string/stl_error_text"/>
 </LinearLayout>
